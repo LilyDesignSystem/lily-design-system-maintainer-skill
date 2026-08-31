@@ -109,7 +109,7 @@ listbox, so this has moved before and can move again.
 `share-picker`, `date-time-picker`.
 
 **The doubt:** three own a preference, one owns an action, one owns a form value.
-That is not a coherent category — [AGENTS/helpers.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/helpers.md) has been
+That is not a coherent category — [AGENTS/helpers.md](AGENTS/helpers.md) has been
 widened twice to keep the definition true, which is usually a sign the definition is
 wrong. And the set may simply be the wrong five: no combobox, no file upload, no
 table sort.
@@ -151,7 +151,7 @@ are machine-consumable by token tooling without abandoning the
 ship-complete-stylesheets position. The open half of the question is
 now only the design-tooling side (Figma library or not).
 
-### RFC 7 — Do 80 national identifier components belong in a general design system?
+### RFC 7 — Do 92 national identifier components belong in a general design system?
 
 **Current answer:** yes — they encode real validation knowledge across 30+
 countries, and nothing else in the field covers this.
@@ -234,13 +234,13 @@ than preference.
 
 | Decision | Where the reasoning lives |
 | --- | --- |
-| The headless layer ships **no CSS** | [AGENTS/headless.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/headless.md) |
-| **No hardcoded user-facing strings**, ever, including English defaults | [AGENTS/internationalization.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/internationalization.md) |
-| **No CSS framework dependency** — no Tailwind, DaisyUI, Bootstrap | [AGENTS/headless.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/headless.md) |
-| **Semantic HTML before ARIA** | [AGENTS/accessibility.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/accessibility.md) |
-| The radio-group picker markup **is not coming back** | [AGENTS/helpers.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/helpers.md) |
-| **Svelte is canonical** for the helper catalogs | [AGENTS/helpers.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/helpers.md) |
-| Components own **no data fetching, routing, persistence, or animation** | [AGENTS/headless.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/headless.md) |
+| The headless layer ships **no CSS** | [AGENTS/headless.md](AGENTS/headless.md) |
+| **No hardcoded user-facing strings**, ever, including English defaults | [AGENTS/internationalization.md](AGENTS/internationalization.md) |
+| **No CSS framework dependency** — no Tailwind, DaisyUI, Bootstrap | [AGENTS/headless.md](AGENTS/headless.md) |
+| **Semantic HTML before ARIA** | [AGENTS/accessibility.md](AGENTS/accessibility.md) |
+| The radio-group picker markup **is not coming back** | [AGENTS/helpers.md](AGENTS/helpers.md) |
+| **Svelte is canonical** for the helper catalogs | [AGENTS/helpers.md](AGENTS/helpers.md) |
+| Components own **no data fetching, routing, persistence, or animation** | [AGENTS/headless.md](AGENTS/headless.md) |
 | Applying a preference is **idempotent** | [spec/helpers/index.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/spec/helpers/index.md) |
 
 ## What happens to your answer

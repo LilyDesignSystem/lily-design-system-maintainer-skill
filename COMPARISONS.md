@@ -71,7 +71,7 @@ defaults and a translation mechanism bolted on afterwards.
 
 **4. Public-sector reference coverage.**
 45 themes covering NHS England, Scotland and Wales in patient and practitioner
-variants, GOV.UK GDS, and USWDS, plus 80 national personal identifier components
+variants, GOV.UK GDS, and USWDS, plus 92 national personal identifier components
 across 30+ countries with normalization and validation. Nothing else in the table
 addresses this, and it is the one area where Lily's breadth is not just breadth.
 
@@ -131,8 +131,8 @@ this page: [docs/migrating/govuk.md](https://github.com/LilyDesignSystem/lily-de
 ## Sources
 
 The full list of systems Lily studies is in
-[AGENTS/citations.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/citations.md); the reference relationship with NHS UK
-is in [AGENTS/nhs-uk-design-system-references.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/nhs-uk-design-system-references.md);
+[AGENTS/citations.md](AGENTS/citations.md); the reference relationship with NHS UK
+is in [AGENTS/nhs-uk-design-system-references.md](AGENTS/nhs-uk-design-system-references.md);
 adaptation notes for the editorial and scrollytelling components are in
 [spec/citations/index.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/spec/citations/index.md).
 

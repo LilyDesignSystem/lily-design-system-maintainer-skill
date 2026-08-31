@@ -124,11 +124,11 @@ they are why Lily's attack surface is small:
 
 - **The headless layer performs no data fetching, no network calls, and no
   persistence.** This is a design rule, not an accident —
-  [AGENTS/headless.md](https://github.com/LilyDesignSystem/lily-design-system/blob/main/AGENTS/headless.md) § Behavior boundaries.
+  [AGENTS/headless.md](AGENTS/headless.md) § Behavior boundaries.
 - **No telemetry and no analytics anywhere.** Nothing about your use of Lily reaches
   the project.
 - **No personal data in the repository** — not in fixtures, not in demo content. The
-  80 national identifier components validate identifier *formats*; their test
+  92 national identifier components validate identifier *formats*; their test
   fixtures are synthetic values constructed to satisfy the algorithms, not real
   identifiers belonging to real people.
 - **No bundled fonts, images, or icon assets.** The picker glyphs are Unicode
